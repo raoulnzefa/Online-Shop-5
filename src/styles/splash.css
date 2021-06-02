@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "SF";
+    src: url('../../fonts/sfprodisplay-bold-webfont.woff');
+  }
+  
+  @font-face {
+    font-family: "SF-R";
+    src: url('../../fonts/sfprodisplay-regular-webfont.woff');
+  }
+
+  .splash {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #f7f7f7;
+    overflow-y: scroll;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .splash-icon {
+    border-radius: 20px;
+    background-color: #4e55af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+
+  .s-icon {
+      fill: white;
+      height: 30px;
+  }
+
+  .s-title {
+      margin-top: 20px;
+      font-family: 'SF';
+      font-size: 18px;
+      color: #0d0f21;
+  }

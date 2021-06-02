@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "SF";
+    src: url('../../fonts/sfprodisplay-bold-webfont.woff');
+  }
+  
+  @font-face {
+    font-family: "SF-R";
+    src: url('../../fonts/sfprodisplay-regular-webfont.woff');
+  }
+
+  .analytics {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #f7f7f7;
+    overflow-y: scroll;
+    padding-bottom: 70px;
+    overscroll-behavior-y: contain;
+    /* padding-bottom: 90px; */
+}
+
+.sales-title {
+    font-family: 'SF-R';
+    color: #8c8c8c;
+    font-size: 16px;
+}
+
+.bar-wrapper {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-family: 'SF';
+}
+
+.day-bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.day-bar {
+    border-radius: 6px;
+    height: 120px;
+    background-color: #e4e4e4;
+    width: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.db {
+    background-color: #4e55af;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.sales-number {
+    color: #4e55af;
+    font-family: 'SF';
+}
+
+.banner {
+    color: #8c8c8c;
+    font-family: 'SF-R';
+    font-size: 16px;
+}
+
+.title-tag {
+    font-family: 'SF-R';
+    color: #4e55af;
+    font-size: 18px;
+    text-align: start;
+    margin-top: 20px;
+}
+
+.t-name {
+    font-size: 24px;
+    color: #5c5e75;
+    text-align: start;
+    font-family: 'SF';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.t-total {
+    color: #8c8c8c;
+    font-family: 'SF-R';
+    font-size: 12px;
+    text-align: end;
+}
+
+.t-total-price {
+    color: #4e55af;
+    font-family: 'SF';
+    font-size: 18px;
+}
+
+.divide {
+    height: 2px;
+    border-radius: 20px;
+    background-color: #8c8c8c28;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.t-sales {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.t-t-sales {
+    color: #8c8c8c;
+    font-family: 'SF-R';
+    font-size: 18px;
+}

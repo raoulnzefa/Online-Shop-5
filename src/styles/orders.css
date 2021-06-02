@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "SF";
+    src: url('../../fonts/sfprodisplay-bold-webfont.woff');
+  }
+  
+  @font-face {
+    font-family: "SF-R";
+    src: url('../../fonts/sfprodisplay-regular-webfont.woff');
+  }
+
+  .o-pic {
+    width: 120px;
+    margin-top: 10px;
+    height: auto;
+  }
+
+  .payment {
+      text-align: center;
+      margin: 10px 25px 10px 25px;
+      font-family: 'SF-R';
+      font-size: 16px;
+      color: #8c8c8c;
+  }
+
+  .o-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+      font-family: 'SF-R';
+      font-size: 16px;
+      color: #8c8c8c;
+  }
+
+  .o-i-price {
+    font-family: 'SF';
+    font-size: 16px;
+    color: #4e55af;
+}
+
+.o-i-total {
+    font-family: 'SF';
+    font-size: 16px;
+    color: rgb(115, 192, 115);
+}
+
+.o-delivery {
+    margin-top: 16px;
+    border-radius: 10px;
+    background-color: #4e55af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'SF-R';
+    font-size: 15px;
+    padding: 10px 0px 10px 0px;
+}

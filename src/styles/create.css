@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "SF";
+    src: url('../../fonts/sfprodisplay-bold-webfont.woff');
+  }
+  
+  @font-face {
+    font-family: "SF-R";
+    src: url('../../fonts/sfprodisplay-regular-webfont.woff');
+  }
+
+  .feedback {
+    color: red;
+    font-size: 16px;
+    text-align: start;
+    margin: 8px 25px 2px 25px;
+    font-family: 'SF-R';
+  }
+
+  .create {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #f7f7f7;
+    overflow-y: scroll;
+    padding-bottom: 70px;
+    overscroll-behavior-y: contain;
+    /* padding-bottom: 90px; */
+}
+
+.c-title {
+    color: #4e55af;
+    font-size: 26px;
+    font-family: 'SF';
+    margin: 20px 25px 0px 25px;
+    text-align: start;
+}
+
+.a-label {
+    font-size: 14px;
+    color: #8c8c8c;
+    font-family: 'SF-R';
+    text-align: start;
+    margin: 20px 25px 0px 25px;
+}
+
+.a-input {
+    margin: 10px 25px 20px 25px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 14px;
+}
+
+.a-enter {
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #3d3d3d;
+    font-family: 'SF-R';
+    font-size: 16px;
+    background-color: white;
+}
+
+.c-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 25px;
+    right: 25px;
+    background-color: #4e55af;
+    border-radius: 6px;
+    padding: 16px;
+    color: white;
+    font-family: 'SF';
+    font-size: 16px;
+}
+
+.login-btn {
+    color: #4e55af;
+    font-family: 'SF-R';
+    font-size: 16px;
+    text-align: start;
+    margin: 8px 25px 2px 25px;
+}

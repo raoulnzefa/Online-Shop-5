@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "SF";
+    src: url('../../fonts/sfprodisplay-bold-webfont.woff');
+  }
+  
+  @font-face {
+    font-family: "SF-R";
+    src: url('../../fonts/sfprodisplay-regular-webfont.woff');
+  }
+
+.cart {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #f7f7f7;
+    overflow-y: scroll;
+    padding-bottom: 70px;
+    overscroll-behavior-y: contain;
+    padding-bottom: 90px;
+}
+
+.cart-header {
+    justify-content: space-between;
+    color: #4e55af;
+    font-family: 'SF';
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    padding: 15px 25px 15px 25px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 8px 32px 0  var(--primary-color);
+    backdrop-filter: blur( 100.0px );
+    -webkit-backdrop-filter: blur( 6.0px );
+}
+
+.c-header-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.checkout {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    /* background-color: #4e55af; */
+    padding: 20px 25px 20px 25px;
+}
+
+.c-btn {
+    background-color: white;
+    color: #4e55af;
+    font-size: 18px;
+    font-family: 'SF';
+    border-radius: 10px;
+    padding: 12px 0px 12px 0px;
+}
+
+.cart-back {
+    fill: #4e55af;
+    height: 22px;
+}
+
+.cart-cost {
+    border-radius: 10px;
+    background-color: #4e55af;
+    padding: 8px 12px 8px 12px;
+    color: white;
+    font-family: 'SF-R';
+    font-size: 16px;
+}
+
+.delete-icon {
+    fill: white;
+    height: 20px;
+}
+
+.no-items {
+    color: #8c8c8c;
+    font-family: 'SF-R';
+    font-size: 18px;
+    margin-top: 130px;
+}
+
+.no-icon {
+    fill: #8c8c8c;
+    height: 30px;
+    margin-bottom: 20px;
+}
